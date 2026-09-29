@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "nama": "Lemea",
+    "deskripsi": "Makanan legendaris Suku Rejang yang terbuat dari rebung bambu muda yang difermentasi bersama ikan air tawar segar. Dimasak dengan kuah santan dan cabai merah giling, menghasilkan perpaduan cita rasa asam segar, pedas menggigit, dan aroma fermentasi gurih yang sangat khas.",
+    "gambar": "/images/kuliner/lemea.jpg",
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "2",
+    "nama": "Tempoyak",
+    "deskripsi": "Kuliner fermentasi tradisional berbahan daging buah durian matang yang difermentasi dengan sedikit garam. Lazim dimasak sebagai sambal goreng tempoyak atau gulai kuah pedas bersama ikan patin sungai, menghasilkan cita rasa asam manis gurih yang eksotis.",
+    "gambar": "/images/kuliner/tempoyak.jpg",
+    "createdAt": "2024-01-05"
+  },
+  {
+    "id": "3",
+    "nama": "Kelicuk",
+    "deskripsi": "Kudapan manis tradisional khas Rejang yang memadukan beras ketan pulen dan pisang raja matang yang ditumbuk lembut dengan parutan kelapa. Dibungkus daun pisang menyerupai kerucut lalu dikukus hingga menghasilkan tekstur kenyal, legit, dan wangi.",
+    "gambar": "/images/kuliner/kelicuk.jpg",
+    "createdAt": "2024-01-10"
+  },
+  {
+    "id": "4",
+    "nama": "Punjung",
+    "deskripsi": "Sajian tumpeng nasi seremonial beraroma kunyit yang ditempatkan dalam bakul anyaman bambu pada ritual adat seperti Kedurei Agung. Dilengkapi lauk ayam panggang rempah utuh, telur rebus, dan sambal lemea sebagai perlambang rasa syukur atas kesuburan bumi.",
+    "gambar": "/images/kuliner/punjung.jpg",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "5",
+    "nama": "Ibet",
+    "deskripsi": "Penganan tradisional sejenis lepat ketan gurih yang dibungkus rapi memanjang dengan lilitan daun kelapa muda atau daun pisang. Bertekstur kenyal dengan isian kelapa parut bumbu manis, kerap disajikan saat kenduri kampung dan pesta hajatan keluarga besar.",
+    "gambar": "/images/kuliner/ibet.jpg",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "6",
+    "nama": "Pendap",
+    "deskripsi": "Kuliner rempah pesisir legendaris berbahan potongan ikan berdaging tebal yang dibumbui parutan kelapa pedas, lalu dibungkus berlapis daun keladi (talas) dan direbus selama berjam-jam hingga daunnya empuk menyatu serta bumbu meresap sempurna.",
+    "gambar": "/images/kuliner/pendap.jpg",
+    "createdAt": "2024-01-25"
+  }
+]

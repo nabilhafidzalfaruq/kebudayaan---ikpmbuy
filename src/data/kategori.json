@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "nama": "Seni & Pertunjukan",
+    "deskripsi": "Tarian sakral, sendratari pergaulan, dan pertunjukan panggung warisan leluhur Suku Rejang dan Pekal.",
+    "gambar": "/images/kategori/seni-pertunjukan.jpg",
+    "icon": "Music",
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "2",
+    "nama": "Tradisi & Upacara",
+    "deskripsi": "Ritual adat, upacara panen raya, dan prosesi daur hidup masyarakat adat Bengkulu Utara.",
+    "gambar": "/images/kategori/tradisi-upacara.jpg",
+    "icon": "Calendar",
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "3",
+    "nama": "Kuliner",
+    "deskripsi": "Makanan tradisional bercita rasa autentik hasil fermentasi dan rempah hutan khas Rejang.",
+    "gambar": "/images/kategori/kuliner.jpg",
+    "icon": "Utensils",
+    "jumlahBudaya": 1
+  },
+  {
+    "id": "4",
+    "nama": "Pakaian Adat",
+    "deskripsi": "Busana kebesaran bangsawan dan pengantin bertahtakan beludru merah dan sulaman benang emas.",
+    "gambar": "/images/kategori/pakaian-adat.jpg",
+    "icon": "Shirt",
+    "jumlahBudaya": 1
+  },
+  {
+    "id": "5",
+    "nama": "Rumah Adat",
+    "deskripsi": "Kearifan arsitektur vernakular panggung tahan gempa dengan ornamen ukir khas Bengkulu.",
+    "gambar": "/images/kategori/rumah-adat.jpg",
+    "icon": "Home",
+    "jumlahBudaya": 1
+  },
+  {
+    "id": "6",
+    "nama": "Bahasa & Aksara",
+    "deskripsi": "Sistem aksara kuno Surat Ulu dan dialek bahasa daerah sebagai identitas literasi peradaban.",
+    "gambar": "/images/kategori/bahasa-aksara.jpg",
+    "icon": "BookOpen",
+    "jumlahBudaya": 1
+  },
+  {
+    "id": "7",
+    "nama": "Musik Tradisional",
+    "deskripsi": "Gema tabuhan perkusi Dol yang bertenaga dan lantunan tembang sastra lisan Berejung.",
+    "gambar": "/images/kategori/musik-tradisional.jpg",
+    "icon": "Radio",
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "8",
+    "nama": "Kerajinan",
+    "deskripsi": "Kriya tempa serat kulit kayu pohon terap dan keindahan motif batik khas Pulau Enggano.",
+    "gambar": "/images/kategori/kerajinan.jpg",
+    "icon": "Palette",
+    "jumlahBudaya": 2
+  }
+]

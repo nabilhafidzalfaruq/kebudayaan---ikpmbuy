@@ -1,0 +1,135 @@
+[
+  {
+    "id": "1",
+    "nama": "Arga Makmur",
+    "deskripsi": "Ibukota Kabupaten Bengkulu Utara, pusat pemerintahan, perekonomian, dan pelestarian seni budaya Rejang dengan pesona wisata alam Palak Siring Kemumu.",
+    "budayaHighlight": ["tari-kejei", "rumah-bubungan-lima", "dol", "pakaian-adat-rejang", "bekejai", "lemea"],
+    "jumlahBudaya": 6
+  },
+  {
+    "id": "2",
+    "nama": "Arma Jaya",
+    "deskripsi": "Wilayah agraris penyangga ibukota yang kaya akan persawahan berundak, air terjun alami, dan tradisi gotong royong masyarakat Rejang.",
+    "budayaHighlight": ["rumah-bubungan-lima", "tari-kejei"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "3",
+    "nama": "Hulu Palik",
+    "deskripsi": "Kawasan perbukitan hijau yang menjadi lumbung tradisi sastra lisan Berejung, perkebunan kopi, serta kelestarian adat istiadat Rejang pedalaman.",
+    "budayaHighlight": ["berejung", "aksara-kaganga"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "4",
+    "nama": "Kerkap",
+    "deskripsi": "Pusat persekutuan adat tertua dan cagar budaya Rejang, tempat diselenggarakannya ritual Kedurei Agung dan pelestarian naskah Aksara Kaganga.",
+    "budayaHighlight": ["kedurei-agung", "aksara-kaganga"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "5",
+    "nama": "Tanjung Agung Palik",
+    "deskripsi": "Kawasan subur di lembah Sungai Palik yang melestarikan seni tutur pantun dan tradisi kuliner fermentasi khas pedesaan Rejang.",
+    "budayaHighlight": ["berejung", "lemea"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "6",
+    "nama": "Air Napal",
+    "deskripsi": "Wilayah pesisir pantai barat yang terkenal dengan panorama laut, ritual adat pesisir Misai Niat, dan denyut musik perkusi Dol.",
+    "budayaHighlight": ["dol", "tari-gandai"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "7",
+    "nama": "Air Besi",
+    "deskripsi": "Daerah perlintasan pesisir yang dinamis dengan peninggalan sejarah kolonial, tradisi nelayan tradisional, dan pertunjukan seni rakyat.",
+    "budayaHighlight": ["tari-gandai", "dol"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "8",
+    "nama": "Lais",
+    "deskripsi": "Kecamatan pesisir bersejarah yang memadukan pesona pantai laut lepas, muara sungai asri, dan kerajinan tempa anyaman tradisional.",
+    "budayaHighlight": ["tari-gandai", "kerajinan-kulit-lantung"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "9",
+    "nama": "Air Padang",
+    "deskripsi": "Wilayah agraris di perbukitan tengah yang subur dengan tradisi musyawarah adat kutei serta pengolahan hasil kebun rakyat.",
+    "budayaHighlight": ["lemea", "kedurei-agung"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "10",
+    "nama": "Batik Nau",
+    "deskripsi": "Sentra kerajinan kriya tradisional kulit kayu terap (lantung) dan perkebunan karet dengan kearifan lokal pemanfaatan hasil hutan.",
+    "budayaHighlight": ["kerajinan-kulit-lantung", "batik-kagano"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "11",
+    "nama": "Padang Jaya",
+    "deskripsi": "Kawasan agropolitan lumbung pangan dan sentra kuliner lemea serta asimilasi budaya transmigrasi dan adat Rejang yang harmonis.",
+    "budayaHighlight": ["lemea", "kedurei-agung"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "12",
+    "nama": "Enggano",
+    "deskripsi": "Pulau terluar di Samudra Hindia dengan keanekaragaman hayati endemik, inspirasi motif Batik Kagano, serta kearifan adat 5 suku asli kepulauan.",
+    "budayaHighlight": ["batik-kagano"],
+    "jumlahBudaya": 1
+  },
+  {
+    "id": "13",
+    "nama": "Giri Mulya",
+    "deskripsi": "Kawasan perbukitan berhawa sejuk di kaki pegunungan dengan pesona air terjun bertingkat dan kehidupan masyarakat agraris yang rukun.",
+    "budayaHighlight": ["rumah-bubungan-lima", "lemea"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "14",
+    "nama": "Ketahun",
+    "deskripsi": "Kawasan pesisir strategis muara Sungai Ketahun, pusat berkembangnya kesenian Tari Gandai dan tradisi bahari Suku Pekal.",
+    "budayaHighlight": ["tari-gandai", "dol"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "15",
+    "nama": "Pinang Raya",
+    "deskripsi": "Daerah perkebunan dan pertambangan yang aktif menjaga kearifan lingkungan serta seni pertunjukan tari daerah.",
+    "budayaHighlight": ["tari-gandai", "kerajinan-kulit-lantung"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "16",
+    "nama": "Ulok Kupai",
+    "deskripsi": "Kawasan dataran tinggi yang menyimpan jejak sejarah kebudayaan Rejang, hutan adat, dan tradisi sastra tutur lisan.",
+    "budayaHighlight": ["aksara-kaganga", "berejung"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "17",
+    "nama": "Napal Putih",
+    "deskripsi": "Daerah bersejarah eks pertambangan emas Lebong Tandai dengan warisan arsitektur kolonial dan pesona alam lembah sungai cadas.",
+    "budayaHighlight": ["berejung", "rumah-bubungan-lima"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "18",
+    "nama": "Putri Hijau",
+    "deskripsi": "Kawasan perbatasan utara yang dinamis dengan pesona legenda Putri Hijau, kebudayaan pesisir Pekal, dan perkebunan kelapa sawit rakyat.",
+    "budayaHighlight": ["tari-gandai", "batik-kagano"],
+    "jumlahBudaya": 2
+  },
+  {
+    "id": "19",
+    "nama": "Marga Sakti Sebelat",
+    "deskripsi": "Wilayah konservasi alam yang menaungi habitat gajah Sumatra di Pusat Latihan Gajah (PLG) Sebelat berpadu dengan kearifan adat marga.",
+    "budayaHighlight": ["tari-gandai", "lemea"],
+    "jumlahBudaya": 2
+  }
+]

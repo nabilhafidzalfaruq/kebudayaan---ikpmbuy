@@ -1,0 +1,291 @@
+[
+  {
+    "id": "1",
+    "slug": "tari-kejei",
+    "nama": "Tari Kejei",
+    "kecamatan": "Arga Makmur",
+    "kategori": "Seni & Pertunjukan",
+    "deskripsi": "Tari Kejei adalah tarian sakral Suku Rejang yang ditampilkan dalam upacara adat besar, penyambutan tamu kehormatan, dan pernikahan tradisional. Gerakan tari yang anggun melambangkan kesopanan, kebersamaan, dan penghormatan luhur kepada sesama dan sang pencipta.",
+    "sejarah": "Tari Kejei diyakini telah ada sejak zaman purba sebelum masuknya pengaruh Hindu dan Islam ke Tanah Rejang. Menurut hikayat lisan, tarian ini pertama kali ditarikan oleh para dewa kayangan pada pernikahan Biku Sepanjang Jiwo dengan Putri Senggang di puncak Bukit Kaba. Tradisi ini kemudian diwariskan turun-temurun sebagai lambang keagungan peradaban adat Rejang.",
+    "filosofi": "Setiap liukan tubuh dan ayunan tangan dalam Tari Kejei memancarkan filosofi 'Kemumu di dalam rumput, tebang bambu buang miangnya', yang bermakna menjaga kesucian diri dan tata krama dalam pergaulan. Gerak melingkar melambangkan lingkaran persaudaraan yang tak terputus antar marga atau petulai. Penggunaan alat musik kulintang berbahan perunggu menegaskan harmoni antara manusia, alam semesta, dan Sang Khalik.",
+    "proses": "Tarian ini dibawakan secara berpasangan oleh para penari bujang (pria) dan gadis (wanita) yang belum menikah dengan mengenakan pakaian adat kebesaran Rejang. Pementasan diawali dengan tabuhan kelintang dan gong dengan tempo lambat yang sakral, sementara para penari melangkah perlahan membentuk formasi melingkar sembari menyebarkan beras kunyit. Selama menari, penari menjaga pandangan matang dan gerak yang santun tanpa saling bersentuhan.",
+    "faktaMenarik": [
+      "Secara tradisional hanya dipentaskan dalam hajatan 'Kejei' yang dapat berlangsung hingga berhari-hari bahkan berbulan-bulan.",
+      "Penari Kejei zaman dahulu harus berpuasa dan menjalani ritual penyucian diri sebelum naik ke pentas adat.",
+      "Diiringi oleh alat musik tradisional kelintang yang terbuat dari logam kuningan atau perunggu kuno."
+    ],
+    "gambar": "/images/budaya/tari-kejei.jpg",
+    "galeri": [
+      "/images/budaya/tari-kejei-1.jpg",
+      "/images/budaya/tari-kejei-2.jpg",
+      "/images/budaya/tari-kejei-3.jpg"
+    ],
+    "tags": ["tari", "rejang", "sakral", "tradisi", "arga-makmur"],
+    "populer": true,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "2",
+    "slug": "tari-gandai",
+    "nama": "Tari Gandai",
+    "kecamatan": "Ketahun",
+    "kategori": "Seni & Pertunjukan",
+    "deskripsi": "Tari Gandai adalah seni tari pergaulan tradisional masyarakat pesisir Bengkulu Utara dan Suku Pekal yang dinamis, dipenuhi pantun bersahut dan irama serunai yang memikat.",
+    "sejarah": "Kesenian Tari Gandai berakar dari kisah legenda Malin Deman dan Putri Bungsu yang turun mandi di telaga bumi. Tarian ini diciptakan sebagai ungkapan kerinduan mendalam Malin Deman kepada istrinya sang bidadari kayangan. Seiring waktu, tarian ini bertransformasi menjadi tarian pesta rakyat yang dimainkan saat panen padi dan hajatan desa.",
+    "filosofi": "Gerakan melangkah maju-mundur dan liukan jemari dalam Tari Gandai melambangkan pasang surut kehidupan pesisir yang harus dihadapi dengan ketabahan. Kesenian ini mengajarkan nilai kesetaraan, sportivitas budi pekerti, dan penghormatan martabat kaum perempuan. Berbalas pantun selama tarian menjadi sarana diplomasi damai serta pengikat rasa kekeluargaan antar kampung.",
+    "proses": "Tarian dipentaskan oleh sekelompok penari perempuan dengan selendang panjang yang disematkan di bahu, diiringi instrumen serunai bambu dan tabuhan gendang redap. Penari bergerak serempak dengan ayunan tangan lentik serta ketukan kaki teratur mengikuti akselerasi tempo musik. Pada jeda tarian, para tetua atau pemuda melantunkan bait-bait pantun sindiran halus yang dijawab dengan anggun oleh gerak penari.",
+    "faktaMenarik": [
+      "Diiringi oleh alat tiup serunai gandai yang memiliki lubang nada unik khas pesisir barat Sumatera.",
+      "Telah ditetapkan sebagai Warisan Budaya Takbenda (WBTb) Indonesia dari Provinsi Bengkulu.",
+      "Dapat ditarikan semalam suntuk dalam pesta rakyat desa di sepanjang pesisir Ketahun dan Teramang."
+    ],
+    "gambar": "/images/budaya/tari-gandai.jpg",
+    "galeri": [
+      "/images/budaya/tari-gandai-1.jpg",
+      "/images/budaya/tari-gandai-2.jpg"
+    ],
+    "tags": ["tari", "pekal", "gandai", "pesisir", "ketahun"],
+    "populer": true,
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "3",
+    "slug": "rumah-bubungan-lima",
+    "nama": "Rumah Bubungan Lima",
+    "kecamatan": "Arga Makmur",
+    "kategori": "Rumah Adat",
+    "deskripsi": "Rumah Bubungan Lima merupakan rumah panggung arsitektur tradisional khas Bengkulu dengan atap limas bertingkat yang kokoh, adaptif terhadap gempa, dan sarat makna filosofis.",
+    "sejarah": "Arsitektur Rumah Bubungan Lima telah dirancang oleh nenek moyang masyarakat Bengkulu sejak berabad-abad lalu untuk menyesuaikan diri dengan wilayah pesisir barat Sumatera yang rawan bencana gempa bumi. Struktur rumah panggung ini dahulu difungsikan sebagai rumah tinggal para bangsawan, kepala adat, dan tempat musyawarah pemuka marga. Nama 'Bubungan Lima' merujuk pada bentuk kontur atap limas yang memiliki lima bubungan utama yang megah.",
+    "filosofi": "Ketinggian tiang penyangga mencerminkan kewaspadaan terhadap ancaman alam liar serta penghormatan pada harkat privasi keluarga. Pembagian tata ruang dari berendo (serambi terbuka) hingga bilik dalam menyimbolkan keterbukaan sosial yang tetap menjunjung tinggi kehormatan rumah tangga. Bentuk atap yang menjulang tinggi ke langit melambangkan ketundukan makhluk kepada Tuhan Yang Maha Tinggi.",
+    "proses": "Pembangunan rumah diawali dengan musyawarah mufakat (mupakat kutei) dan ritual doa penancapan tiang tuo dari kayu medang atau ulin pilihan. Tiang-tiang fondasi tidak ditanam mati ke dalam tanah, melainkan diletakkan bebas di atas umpak batu cadas datar agar elastis meredam getaran seismik gempa. Dinding dirangkai dari papan kayu bermotif ukir flora lokal tanpa paku besi, melainkan memanfaatkan teknik pasak kayu dan ikatan rotan kokoh.",
+    "faktaMenarik": [
+      "Fondasi batu sendi tanpa paku tanah menjadikan Rumah Bubungan Lima sebagai mahakarya konstruksi tahan gempa vernakular.",
+      "Memiliki tangga bertingkat ganjil yang dipercaya membawa berkah keselamatan dan kelancaran rezeki bagi penghuninya.",
+      "Terbagi atas lima zona fungsional utama: Berendo, Ruang Tengah, Ruang Tidur, Garang (tempat air), dan Dapur."
+    ],
+    "gambar": "/images/budaya/rumah-bubungan-lima.jpg",
+    "galeri": [
+      "/images/budaya/rumah-bubungan-lima-1.jpg",
+      "/images/budaya/rumah-bubungan-lima-2.jpg"
+    ],
+    "tags": ["rumah-adat", "arsitektur", "bubungan-lima", "tahan-gempa"],
+    "populer": true,
+    "createdAt": "2024-02-01"
+  },
+  {
+    "id": "4",
+    "slug": "aksara-kaganga",
+    "nama": "Aksara Kaganga",
+    "kecamatan": "Kerkap",
+    "kategori": "Bahasa & Aksara",
+    "deskripsi": "Aksara Kaganga (Surat Ulu Rejang) adalah sistem aksara fonetis kuno kebanggaan Suku Rejang, menjadikannya salah satu warisan literasi tertua dan terlengkap di kepulauan Nusantara.",
+    "sejarah": "Aksara Kaganga diperkirakan berkembang sejak abad ke-12 masehi sebagai turunan dari aksara Brahmi melalui perantara aksara Pallawa dan Kawi Sumatra purba. Masyarakat Rejang menggunakannya untuk mendokumentasikan tatanan hukum adat (Simbur Cahaya), silsilah marga petulai, ramuan pengobatan tabib, hingga mantra sakral. Banyak naskah kuno Kaganga ditulis di atas bilah bambu (gelumpai), kulit kayu terap, dan tanduk kerbau.",
+    "filosofi": "Goresan aksara Kaganga yang condong geometris dan bersudut tegas mencerminkan watak masyarakat Rejang yang jujur, berprinsip kokoh, dan berani mempertahankan kebenaran. Keberadaan aksara lokal ini membuktikan bahwa peradaban pedalaman Bengkulu telah mencapai tingkat literasi dan peradaban hukum yang matang jauh sebelum kedatangan bangsa Eropa. Menulis Kaganga dipandang sebagai ikhtiar mengabadikan kebijaksanaan budi luhur leluhur.",
+    "proses": "Sistem penulisan Kaganga terdiri atas 28 huruf dasar (indung surat) yang diawali dengan konsonan Ka, Ga, Nga, hingga bunyi nasal rangkap seperti Mba dan Ngga. Pembentukan suku kata dilakukan dengan menyematkan tanda vokalisasi (anak surat) di atas, di bawah, atau di samping huruf induk untuk mengubah vokal atau mematikan bunyi (tanda paten). Penulisan tradisional menggunakan pisau kecil (pisu raut) yang ditorehkan ke permukaan bambu kering lalu dilumuri jelaga hitam agar tulisan terbaca abadi.",
+    "faktaMenarik": [
+      "Diakui dunia internasional setelah diteliti secara komprehensif oleh orientalis William Marsden pada abad ke-18 dan M.A. Jaspan.",
+      "Terdapat 28 huruf induk dan 13 anak surat vokalisasi yang sangat sistematis dan fonemik.",
+      "Salah satu naskah gelumpai bambu Kaganga tertua kini tersimpan di British Library London dan Museum Negeri Bengkulu."
+    ],
+    "gambar": "/images/budaya/aksara-kaganga.jpg",
+    "galeri": [
+      "/images/budaya/aksara-kaganga-1.jpg",
+      "/images/budaya/aksara-kaganga-2.jpg"
+    ],
+    "tags": ["aksara", "kaganga", "literasi", "surat-ulu", "rejang"],
+    "populer": true,
+    "createdAt": "2024-02-10"
+  },
+  {
+    "id": "5",
+    "slug": "batik-kagano",
+    "nama": "Batik Kagano",
+    "kecamatan": "Enggano",
+    "kategori": "Kerajinan",
+    "deskripsi": "Batik Kagano adalah kain batik khas Bengkulu Utara dengan motif eksotis yang mengangkat fauna endemik burung Pleci Enggano dan warisan maritim suku kepulauan terluar.",
+    "sejarah": "Batik Kagano lahir dari inisiatif para perajin kriya Bengkulu Utara untuk mengabadikan kekayaan hayati dan kearifan lokal Pulau Enggano ke dalam media tekstil. Nama 'Kagano' diambil dari sebutan kuno untuk Pulau Enggano yang sarat pesona alam tropis dan adat istiadat lima suku aslinya. Motif batik ini secara resmi diperkenalkan ke publik dan mendapat apresiasi luas sebagai ikon cinderamata khas daerah.",
+    "filosofi": "Motif burung pleci enggano (Zosterops natalisi) melambangkan kebebasan jiwa, keceriaan, dan pentingnya menjaga keseimbangan ekosistem kepulauan yang rapuh. Guratan gelombang laut Samudra Hindia dan motif perahu layar melambangkan ketangguhan para pelaut Enggano mengarungi samudra kehidupan. Warna-warna tanah dan biru laut yang dominan menyiratkan keselarasan hidup manusia dengan alam pesisir.",
+    "proses": "Pembuatan batik diawali dengan melukis pola sketsa burung pleci dan biota laut pada selembar kain katun primissima atau sutra alam. Perajin kemudian menorehkan cairan lilin malam panas menggunakan canting tulis halus untuk mempertahankan garis motif detail. Tahapan dilanjutkan dengan pewarnaan bertingkat menggunakan zat warna alam ramah lingkungan, proses fiksasi, dan pelorodan lilin dalam air mendidih untuk memunculkan kilau motif sempurna.",
+    "faktaMenarik": [
+      "Mengangkat burung Pleci Enggano, spesies burung endemik yang hanya dapat dijumpai di kawasan Pulau Enggano Bengkulu.",
+      "Memadukan ragam hias ornamen ukir kayu tradisional suku Enggano dengan teknik membatik pesisiran.",
+      "Banyak diproduksi menggunakan bahan pewarna alami dari ekstrak kulit kayu bakau dan getah tanaman hutan tropis."
+    ],
+    "gambar": "/images/budaya/batik-kagano.jpg",
+    "galeri": [
+      "/images/budaya/batik-kagano-1.jpg",
+      "/images/budaya/batik-kagano-2.jpg"
+    ],
+    "tags": ["batik", "kerajinan", "enggano", "kagano", "tekstil"],
+    "populer": true,
+    "createdAt": "2024-02-15"
+  },
+  {
+    "id": "6",
+    "slug": "kerajinan-kulit-lantung",
+    "nama": "Kerajinan Kulit Lantung",
+    "kecamatan": "Batik Nau",
+    "kategori": "Kerajinan",
+    "deskripsi": "Kerajinan Kulit Lantung adalah karya seni kriya khas Bengkulu yang memanfaatkan serat kulit pohon terap melalui teknik penempaan tradisional yang ulet dan ramah lingkungan.",
+    "sejarah": "Tradisi mengolah kulit lantung berakar dari masa pendudukan Jepang di era 1940-an ketika pasokan kain sandang terputus total akibat perang. Masyarakat Bengkulu Utara dengan cerdik memanfaatkan serat bagian dalam kulit pohon terap (Artocarpus elasticus) sebagai bahan pakaian pengganti kain. Kini warisan ketahanan hidup masa lampau itu berevolusi menjadi produk kerajinan bernilai seni estetis tinggi.",
+    "filosofi": "Kulit lantung mengajarkan filosofi keuletan, kemandirian, dan kearifan ekologis dalam memanfaatkan karunia alam tanpa merusak kelestarian hutan. Tekstur serat yang bersilang rapat melambangkan persatuan masyarakat yang kokoh menghadapi tempaan kesulitan hidup. Kriya ini menjadi bukti nyata kemampuan adaptasi dan kreativitas masyarakat lokal mengubah keterbatasan menjadi karya bernilai tinggi.",
+    "proses": "Proses diawali dengan menguliti batang pohon terap tua secara hati-hati, lalu memisahkan kulit bagian dalam yang berserat kenyal dari kulit ari luarnya. Kulit serat tersebut kemudian ditempa dan dipukul merata di atas bantalan kayu menggunakan alat pemukul bergerigi khusus hingga seratnya melebar tipis dan lentur. Setelah dicuci bersih dan dijemur hingga kering alami, lembaran lantung dipotong dan dijahit menjadi tas, dompet, miniatur rumah adat, maupun lukisan dinding.",
+    "faktaMenarik": [
+      "Bahan lantung terbuat murni dari kulit pohon terap tanpa campuran bahan kimia sintetis.",
+      "Kriya lantung telah ditetapkan sebagai Warisan Budaya Takbenda (WBTb) Indonesia dari Provinsi Bengkulu.",
+      "Memiliki daya tahan serat yang luar biasa liat, awet puluhan tahun, dan tidak mudah sobek oleh air."
+    ],
+    "gambar": "/images/budaya/kerajinan-kulit-lantung.jpg",
+    "galeri": [
+      "/images/budaya/kerajinan-kulit-lantung-1.jpg",
+      "/images/budaya/kerajinan-kulit-lantung-2.jpg"
+    ],
+    "tags": ["lantung", "kerajinan", "kulit-terap", "kriya", "batik-nau"],
+    "populer": false,
+    "createdAt": "2024-02-20"
+  },
+  {
+    "id": "7",
+    "slug": "dol",
+    "nama": "Dol",
+    "kecamatan": "Arga Makmur",
+    "kategori": "Musik Tradisional",
+    "deskripsi": "Dol adalah alat musik perkusi legendaris berbentuk setengah bola cembung dengan dentuman gema menggelegar yang menjadi denyut nadi musik tradisional perayaan rakyat Bengkulu.",
+    "sejarah": "Alat musik Dol berakar dari tradisi perayaan ritual Tabut yang dibawa oleh para pengrajin dan prajurit Sipahi dari Madras (India Selatan) yang didatangkan oleh kolonial Inggris ke Bengkulu pada abad ke-18. Alat musik ini kemudian diadopsi dan berakulturasi erat dengan kebudayaan lokal masyarakat Bengkulu dan Bengkulu Utara. Kini Dol telah menjadi instrumen musik kebanggaan daerah dalam berbagai festival dan acara kenegaraan.",
+    "filosofi": "Dentuman suara Dol yang berat dan menggelegar melambangkan keberanian, keteguhan hati, dan semangat perjuangan membela kebenaran tanpa gentar. Ritme permainan Dol yang dimainkan secara kolosal mencerminkan gelombang semangat gotong royong dan kesatuan tekad masyarakat. Keharmonisan tabuhan Dol dengan tasha dan serunai mengajarkan kerukunan di tengah keberagaman latar belakang.",
+    "proses": "Dol dibuat dari bongkahan pangkal batang kayu nangka tua yang dibubut dan dipahat hingga membentuk setengah bola cembung berongga. Permukaan atasnya ditutup dengan lembaran kulit sapi atau kerbau yang diikat kuat menggunakan jalinan tali tambang kokoh dengan teknik simpul pasak pengencang nada. Dol dimainkan dengan cara ditabuh menggunakan sepasang tongkat pemukul kayu beralas karet dengan tiga variasi ritme utama: suwena, tamatam, dan suwari.",
+    "faktaMenarik": [
+      "Diameter Dol dapat mencapai 70 hingga 100 sentimeter dengan bobot yang bisa melampaui 20 kilogram.",
+      "Kayu pohon nangka dipilih karena memiliki pori serat padat yang mampu menghasilkan resonansi dentuman bass paling menggelegar.",
+      "Tiga ritme khas Dol (Suwena lambat khidmat, Tamatam riang gembira, Suwari cepat tempur) memiliki fungsi emosional yang berbeda."
+    ],
+    "gambar": "/images/budaya/dol.jpg",
+    "galeri": [
+      "/images/budaya/dol-1.jpg",
+      "/images/budaya/dol-2.jpg"
+    ],
+    "tags": ["musik", "dol", "perkusi", "tabut", "bengkulu-utara"],
+    "populer": true,
+    "createdAt": "2024-03-01"
+  },
+  {
+    "id": "8",
+    "slug": "berejung",
+    "nama": "Berejung",
+    "kecamatan": "Hulu Palik",
+    "kategori": "Musik Tradisional",
+    "deskripsi": "Berejung adalah seni sastra tutur lisan berirama khas Suku Rejang yang melantunkan bait-bait pantun puitis penuh nasihat bijak, romantisme, dan renungan hidup.",
+    "sejarah": "Tradisi Berejung lahir dari kebiasaan para peladang dan tetua adat Rejang di pedalaman perbukitan Bengkulu Utara pada masa lampau. Sastra lisan ini menjadi sarana hiburan utama saat melepas lelah di pondok huma usai menuai padi serta pengisi malam pada perhelatan perkawinan adat. Keahlian melantunkan rejung diwariskan secara lisan dari generasi ke generasi tanpa teks tertulis.",
+    "filosofi": "Berejung merefleksikan kedalaman rasa, kepekaan batin, dan kesantunan bertutur masyarakat Rejang dalam menyampaikan kritik maupun ungkapan rasa cinta. Rima pantun yang tertata mengajarkan kearifan bahwa setiap tutur kata harus ditimbang matang agar tidak menyinggung perasaan orang lain. Lantunan rejung juga memuat pesan moral pengingat akan fana kehidupan dunia dan pentingnya memelihara budi pekerti luhur.",
+    "proses": "Berejung dibawakan secara solo atau berbalas pantun (sahut-menyahut) oleh penembang rejung yang piawai merangkai kata spontan dengan nada meliuk syahdu. Pementasan sering kali diiringi oleh petikan dawai gitar tunggal (gitar rejang) atau alunan rebab dan serunai yang mendayu-dayu. Penembang melantunkan bait demi bait bait pantun bertema asmara, sindiran adat, maupun doa keselamatan di hadapan hadirin yang menyimak khusyuk.",
+    "faktaMenarik": [
+      "Dilantunkan menggunakan bahasa Rejang arkais dengan dialek sastra tinggi yang sarat metafora alam.",
+      "Sering menjadi ajang diplomasi halus para pemuda dalam memikat pujaan hati pada pesta keramaian desa zaman dahulu.",
+      "Merupakan salah satu seni tutur lisan tertua yang kini aktif direvitalisasi oleh budayawan muda Bengkulu Utara."
+    ],
+    "gambar": "/images/budaya/berejung.jpg",
+    "galeri": [
+      "/images/budaya/berejung-1.jpg",
+      "/images/budaya/berejung-2.jpg"
+    ],
+    "tags": ["musik", "sastra-lisan", "berejung", "pantun", "rejang", "hulu-palik"],
+    "populer": false,
+    "createdAt": "2024-03-05"
+  },
+  {
+    "id": "9",
+    "slug": "lemea",
+    "nama": "Lemea",
+    "kecamatan": "Arga Makmur",
+    "kategori": "Kuliner",
+    "deskripsi": "Lemea adalah kuliner fermentasi legendaris kebanggaan Suku Rejang yang memadukan rebung bambu muda pilihan dengan ikan air tawar, menghasilkan cita rasa asam gurih yang khas dan kaya probiotik alami.",
+    "sejarah": "Lemea telah menjadi makanan pokok pendamping nasi bagi masyarakat Suku Rejang sejak ratusan tahun silam. Leluhur Rejang yang mendiami lembah pegunungan Bukit Barisan memanfaatkan teknik fermentasi alami sebagai kearifan lokal mengawetkan rebung bambu hutan yang melimpah dan tangkapan ikan sungai. Hidangan ini menjadi simbol jamuan kehormatan saat menjamu kerabat dan pesta adat keluarga besar.",
+    "filosofi": "Proses peragian lemea melambangkan proses pematangan karakter manusia yang membutuhkan kesabaran, waktu, dan ketulusan untuk menghasilkan kebaikan sejati. Paduan rebung dari hutan dan ikan dari sungai menyimbolkan keharmonisan relasi manusia dengan dua elemen alam penopang kehidupan. Rasa asam pedas yang menggigit melambangkan semangat kerja keras dan ketegasan sikap hidup orang Rejang.",
+    "proses": "Rebung bambu muda segar dicincang halus lalu dicuci bersih dan diperas air getahnya. Rebung cincang tersebut kemudian dicampur dengan potongan ikan air tawar segar seperti mujair, mas, atau gabus dalam perbandingan seimbang, lalu disimpan rapat dalam wadah tembikar atau toples kedap udara selama 3 hingga 5 hari hingga terjadi fermentasi asam laktat alami. Setelah matang beraroma khas, lemea dimasak bersama santan kelapa, cabai giling merah, serai, daun salam, dan garam hingga mendidih matang sempurna.",
+    "faktaMenarik": [
+      "Menggunakan prinsip fermentasi alami yang mirip dengan kimchi Korea atau tsukemono Jepang, menjadikannya sangat sehat untuk pencernaan.",
+      "Memiliki aroma fermentasi tajam yang khas, namun ketika sudah dimasak berkuah santan rasanya sangat gurih dan menyegarkan selera makan.",
+      "Telah dinobatkan sebagai salah satu Kuliner Tradisional Terpopuler dalam ajang Anugerah Pesona Indonesia (API)."
+    ],
+    "gambar": "/images/budaya/lemea.jpg",
+    "galeri": [
+      "/images/budaya/lemea-1.jpg",
+      "/images/budaya/lemea-2.jpg"
+    ],
+    "tags": ["kuliner", "lemea", "fermentasi", "makanan-khas", "rejang"],
+    "populer": true,
+    "createdAt": "2024-03-10"
+  },
+  {
+    "id": "10",
+    "slug": "pakaian-adat-rejang",
+    "nama": "Pakaian Adat Rejang",
+    "kecamatan": "Arga Makmur",
+    "kategori": "Pakaian Adat",
+    "deskripsi": "Pakaian Adat Rejang adalah busana kebesaran pengantin dan bangsawan Rejang yang sarat kemewahan sulaman benang emas, kain beludru merah megah, dan mahkota sunting keemasan yang anggun.",
+    "sejarah": "Busana adat Rejang berakar dari tata rias istana kerajaan-kerajaan Rejang tempo dulu di pedalaman Bengkulu. Pakaian ini mencerminkan tingginya derajat estetika peradaban masyarakat Rejang yang mendapat pengaruh akulturasi Melayu, Sriwijaya, dan nuansa Minangkabau. Dahulu hanya dikenakan oleh kaum bangsawan (kutei) dan pengantin pada puncak upacara pernikahan agung.",
+    "filosofi": "Warna merah beludru yang dominan melambangkan keberanian, keteguhan martabat, dan kehangatan rasa persaudaraan. Hiasan taburan benang emas (benang makau) bermotif pucuk rebung menyimbolkan harapan kemakmuran dan kerendahan hati bahwa semakin tinggi derajat seseorang harus semakin bermanfaat bagi sesama. Mahkota sunting pada kepala mempelai wanita melambangkan mahkota kehormatan keluarga dan amanah kepemimpinan rumah tangga.",
+    "proses": "Mempelai wanita mengenakan baju kurung beludru panjang berhiaskan bordir emas lempengan, dipadu kain songket sarung tenun ikat bermotif geometris, selempang keemasan, serta perhiasan pending dan mahkota sunting bertingkat dengan kembang goyang. Mempelai pria mengenakan baju jas bertutup beludru merah atau hitam dengan sulaman emas, celana panjang berbalut samping kain songket selutut, penutup kepala detar (destar) lancip bermahkota, serta menyelipkan sebilah keris berluk di bagian pinggang.",
+    "faktaMenarik": [
+      "Mahkota pengantin wanita Rejang dapat memiliki bobot hingga 3 sampai 5 kilogram karena terbuat dari kuningan berlapis kencana.",
+      "Motif sulaman benang emas mengusung ragam hias 'bungo cengkeh' dan 'pucuk rabuang' warisan nenek moyang.",
+      "Setiap perhiasan kalung bersusun (tapak jando dan rantai manik) memiliki perlambang ikatan moral antara keluarga kedua mempelai."
+    ],
+    "gambar": "/images/budaya/pakaian-adat-rejang.jpg",
+    "galeri": [
+      "/images/budaya/pakaian-adat-rejang-1.jpg",
+      "/images/budaya/pakaian-adat-rejang-2.jpg"
+    ],
+    "tags": ["pakaian-adat", "rejang", "busana-pengantin", "sunting", "arga-makmur"],
+    "populer": true,
+    "createdAt": "2024-03-15"
+  },
+  {
+    "id": "11",
+    "slug": "kedurei-agung",
+    "nama": "Kedurei Agung",
+    "kecamatan": "Kerkap",
+    "kategori": "Tradisi & Upacara",
+    "deskripsi": "Kedurei Agung adalah ritual upacara syukuran akbar Suku Rejang atas kelimpahan panen hasil bumi dan doa permohonan keselamatan desa dari segala marabahaya.",
+    "sejarah": "Tradisi Kedurei telah berlangsung secara turun-temurun sejak masa pembentukan persekutuan empat petulai Suku Rejang (Tubai, Jurukalang, Bermani, dan Selupui). Ritual ini diadakan secara periodik setelah musim panen raya padi atau sebelum membuka huma ladang baru guna menjaga keseimbangan alam mikrokosmos dan makrokosmos. Hingga kini Kedurei Agung tetap dilestarikan sebagai pesta budaya terbesar di Bengkulu Utara.",
+    "filosofi": "Kedurei Agung berpijak pada prinsip hidup 'Nemui Nyimah' dan 'Sakai Sambayan', yakni kesediaan berbagi berkah dan semangat gotong royong tanpa pamrih. Sajian punjung nasi kunyit melambangkan rasa syukur mendalam kepada Sang Pencipta atas rezeki tanah subur yang menghidupi warga. Ritual ini mengokohkan komitmen bersama dalam menjaga kelestarian hutan adat dan keharmonisan antar warga desa.",
+    "proses": "Upacara dipimpin langsung oleh Ketua Badan Musyawarah Adat (BMA) dan pemangku tetua desa di balai adat atau lapangan kutei terbuka. Warga dari setiap penjuru desa datang berbondong-bondong membawa 'punjung' (bakul anyaman berisi nasi kuning tumpeng lengkap dengan lauk ayam panggang dan lemea). Rangkaian acara diisi dengan pembacaan piagam sumpah adat Rejang, doa tolak bala oleh pemuka agama, serta ditutup dengan makan bemarung (makan bersama secara berjamaah).",
+    "faktaMenarik": [
+      "Menghadirkan ratusan hingga ribuan tumpeng punjung yang dibawa serentak oleh para ibu-ibu dengan menjunjungnya di atas kepala.",
+      "Menjadi forum musyawarah adat tahunan untuk menyelesaikan berbagai perselisihan warga secara damai berasaskan hukum adat Rejang.",
+      "Masuk dalam kalender agenda pariwisata dan kebudayaan tahunan resmi Pemerintah Kabupaten Bengkulu Utara."
+    ],
+    "gambar": "/images/budaya/kedurei-agung.jpg",
+    "galeri": [
+      "/images/budaya/kedurei-agung-1.jpg",
+      "/images/budaya/kedurei-agung-2.jpg"
+    ],
+    "tags": ["upacara", "tradisi", "kedurei-agung", "syukuran", "rejang", "kerkap"],
+    "populer": true,
+    "createdAt": "2024-03-20"
+  },
+  {
+    "id": "12",
+    "slug": "bekejai",
+    "nama": "Bekejai (Pernikahan Adat)",
+    "kecamatan": "Arga Makmur",
+    "kategori": "Tradisi & Upacara",
+    "deskripsi": "Bekejai adalah tata prosesi upacara perkawinan adat sakral dan termegah dalam tatanan Suku Rejang yang memadukan ikrar suci, hukum adat marga, dan perhelatan seni rakyat.",
+    "sejarah": "Upacara Bekejai berasal dari masa kepemimpinan para Biku di Tanah Rejang purba. Istilah Bekejai bermakna perhelatan agung perayaan hidup baru yang mengikat persatuan dua keluarga besar dan dua marga petulai yang berbeda. Dahulu, upacara Bekejai bangsawan Rejang digelar selama berminggu-minggu dengan menyembelih kerbau adat dan menampilkan seluruh pusaka kebesaran kaum.",
+    "filosofi": "Pernikahan dalam pandangan Rejang bukan semata ikatan biologis atau perdata sepasang insan, melainkan penyatuan dua pohon silsilah keluarga besar yang harus saling menopang. Penyerahan mahar adat (mas kawin dan uang hantaran) menyimbolkan kesiapan pria bertanggung jawab memuliakan harkat wanita. Doa dan tepung tawar adat bermakna memohon restu leluhur dan keberkahan Ilahi demi keturunan yang berbudi luhur.",
+    "proses": "Tahapan Bekejai dimulai dari 'Merisik' (mencari kabar), 'Betunang' (pertunangan adat), lalu 'Antar Belanjo' (penyerahan seserahan adat). Pada hari akad nikah, pengantin menjalani prosesi ijab kabul yang dilanjutkan dengan 'Mandi Kasai' (penyucian diri dengan air rempah harum) dan upacara 'Tepung Tawar Adat'. Acara dipuncaki dengan persandingan di pelaminan adat, persembahan sakral Tari Kejei di hadapan raja adat, dan ditutup dengan santap jamuan adat bemarung.",
+    "faktaMenarik": [
+      "Wajib menampilkan Tari Kejei lengkap dengan iringan gamelan kelintang perunggu sebagai syarat sah adat pesta perkawinan.",
+      "Melibatkan sidang pemangku adat untuk membacakan silsilah marga dan hukum adat hak waris kedua mempelai.",
+      "Pelaminan adat Rejang dihiasi tirai bertingkat bersulam benang kencana dengan motif khas petulai kuno."
+    ],
+    "gambar": "/images/budaya/bekejai.jpg",
+    "galeri": [
+      "/images/budaya/bekejai-1.jpg",
+      "/images/budaya/bekejai-2.jpg"
+    ],
+    "tags": ["upacara", "bekejai", "pernikahan", "adat-rejang", "tradisi"],
+    "populer": false,
+    "createdAt": "2024-03-25"
+  }
+]
