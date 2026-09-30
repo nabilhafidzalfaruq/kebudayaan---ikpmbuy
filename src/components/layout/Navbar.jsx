@@ -48,6 +48,7 @@ export default function Navbar({ onSearchOpen, onThemeToggle, isDark: propIsDark
   const navItems = [
     { label: 'Beranda', href: '/' },
     { label: 'Jelajah Budaya', href: '/jelajah' },
+    { label: 'Komoditas', href: '/komoditas' },
     { label: 'Kecamatan', href: '#peta' },
     { label: 'Berita', href: '/berita' },
     { label: 'Event', href: '/event' },

@@ -297,6 +297,12 @@ service cloud.firestore {
       allow read: if true;
       allow write: if request.auth != null;
     }
+
+    // Komoditas: publik bisa baca
+    match /komoditas/{document} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
   }
 }
 ```
@@ -360,6 +366,8 @@ bengkulu-utara-budaya/
 | `/berita/:slug` | Detail Berita | Baca artikel berita |
 | `/event` | Semua Event | List event & kegiatan |
 | `/event/:slug` | Detail Event | Detail event |
+| `/komoditas` | Semua Komoditas | List potensi & komoditas daerah |
+| `/komoditas/:slug` | Detail Komoditas | Informasi mendalam potensi komoditas |
 | `/admin/login` | Login Admin | Halaman login admin |
 | `/admin` | Dashboard | Panel admin utama |
 | `/admin/berita` | Kelola Berita | CRUD berita |

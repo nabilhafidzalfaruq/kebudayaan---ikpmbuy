@@ -4,8 +4,7 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.example
-
+.env.*.local
 # Build
 dist/
 

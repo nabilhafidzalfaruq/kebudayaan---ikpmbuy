@@ -6,6 +6,7 @@ import { getAllBerita } from '../firebase/services/beritaService';
 import { getAllEvents } from '../firebase/services/eventService';
 import { getAllKuliner } from '../firebase/services/kulinerService';
 import { getAllKecamatan } from '../firebase/services/kecamatanService';
+import { getAllKomoditas } from '../firebase/services/komoditasService';
 
 // Eagerly import all JSON data files from src/data/*.json if available
 const localJsonFiles = import.meta.glob('../data/*.json', { eager: true });
@@ -37,6 +38,7 @@ export const FirebaseContext = createContext({
   events: [],
   kuliner: [],
   kecamatan: [],
+  komoditas: [],
   loading: true,
   loadingBudaya: true,
   loadingKategori: true,
@@ -44,6 +46,7 @@ export const FirebaseContext = createContext({
   loadingEvents: true,
   loadingKuliner: true,
   loadingKecamatan: true,
+  loadingKomoditas: true,
   error: null,
   isConfigured: false,
   dataSource: 'local', // 'firebase' | 'local'
@@ -71,6 +74,7 @@ export const FirebaseProvider = ({ children }) => {
   const [events, setEvents] = useState([]);
   const [kuliner, setKuliner] = useState([]);
   const [kecamatan, setKecamatan] = useState([]);
+  const [komoditas, setKomoditas] = useState([]);
 
   const [loading, setLoading] = useState(true);
   const [loadingBudaya, setLoadingBudaya] = useState(true);
@@ -79,6 +83,7 @@ export const FirebaseProvider = ({ children }) => {
   const [loadingEvents, setLoadingEvents] = useState(true);
   const [loadingKuliner, setLoadingKuliner] = useState(true);
   const [loadingKecamatan, setLoadingKecamatan] = useState(true);
+  const [loadingKomoditas, setLoadingKomoditas] = useState(true);
 
   const [error, setError] = useState(null);
   const [dataSource, setDataSource] = useState(isFirebaseConfigured ? 'firebase' : 'local');
@@ -93,6 +98,7 @@ export const FirebaseProvider = ({ children }) => {
     const localEvents = getLocalCollection('events');
     const localKuliner = getLocalCollection('kuliner');
     const localKecamatan = getLocalCollection('kecamatan');
+    const localKomoditas = getLocalCollection('komoditas');
 
     setBudaya(localBudaya);
     setKategori(localKategori);
@@ -100,6 +106,7 @@ export const FirebaseProvider = ({ children }) => {
     setEvents(localEvents);
     setKuliner(localKuliner);
     setKecamatan(localKecamatan);
+    setKomoditas(localKomoditas);
 
     setLoadingBudaya(false);
     setLoadingKategori(false);
@@ -107,6 +114,7 @@ export const FirebaseProvider = ({ children }) => {
     setLoadingEvents(false);
     setLoadingKuliner(false);
     setLoadingKecamatan(false);
+    setLoadingKomoditas(false);
     setLoading(false);
     setDataSource('local');
   }, []);
@@ -133,14 +141,16 @@ export const FirebaseProvider = ({ children }) => {
         beritaRes,
         eventsRes,
         kulinerRes,
-        kecamatanRes
+        kecamatanRes,
+        komoditasRes
       ] = await Promise.allSettled([
         getAllBudaya(),
         getAllKategori(),
         getAllBerita(),
         getAllEvents(),
         getAllKuliner(),
-        getAllKecamatan()
+        getAllKecamatan(),
+        getAllKomoditas()
       ]);
 
       // Fallback helpers
@@ -150,6 +160,7 @@ export const FirebaseProvider = ({ children }) => {
       const localEvents = getLocalCollection('events');
       const localKuliner = getLocalCollection('kuliner');
       const localKecamatan = getLocalCollection('kecamatan');
+      const localKomoditas = getLocalCollection('komoditas');
 
       // Budaya
       if (budayaRes.status === 'fulfilled' && Array.isArray(budayaRes.value) && budayaRes.value.length > 0) {
@@ -198,6 +209,14 @@ export const FirebaseProvider = ({ children }) => {
         setKecamatan(localKecamatan);
       }
       setLoadingKecamatan(false);
+
+      // Komoditas
+      if (komoditasRes.status === 'fulfilled' && Array.isArray(komoditasRes.value) && komoditasRes.value.length > 0) {
+        setKomoditas(komoditasRes.value);
+      } else {
+        setKomoditas(localKomoditas);
+      }
+      setLoadingKomoditas(false);
 
     } catch (err) {
       console.warn('Gagal memuat data dari Firestore, beralih ke data lokal JSON:', err);
@@ -304,6 +323,7 @@ export const FirebaseProvider = ({ children }) => {
     events,
     kuliner,
     kecamatan,
+    komoditas,
     loading,
     loadingBudaya,
     loadingKategori,
@@ -311,6 +331,7 @@ export const FirebaseProvider = ({ children }) => {
     loadingEvents,
     loadingKuliner,
     loadingKecamatan,
+    loadingKomoditas,
     error,
     isConfigured: isFirebaseConfigured,
     dataSource,

@@ -115,6 +115,7 @@ async function seed() {
     { name: 'events', file: 'events.json' },
     { name: 'kuliner', file: 'kuliner.json' },
     { name: 'kecamatan', file: 'kecamatan.json' },
+    { name: 'komoditas', file: 'komoditas.json' },
   ];
 
   let totalCreated = 0;

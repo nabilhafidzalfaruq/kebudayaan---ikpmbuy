@@ -6,6 +6,7 @@ export default function Footer() {
   const navigasiLinks = [
     { label: 'Beranda', href: '/' },
     { label: 'Jelajah Budaya', href: '/jelajah' },
+    { label: 'Komoditas Daerah', href: '/komoditas' },
     { label: 'Peta Kecamatan', href: '/#peta' },
     { label: 'Berita Budaya', href: '/berita' },
     { label: 'Agenda Event', href: '/event' },

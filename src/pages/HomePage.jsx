@@ -7,12 +7,13 @@ import BudayaPopuler from '../components/home/BudayaPopuler';
 import FeaturedStory from '../components/home/FeaturedStory';
 import EventBudaya from '../components/home/EventBudaya';
 import KulinerKhas from '../components/home/KulinerKhas';
+import KomoditasDaerah from '../components/home/KomoditasDaerah';
 import CulturalQuote from '../components/home/CulturalQuote';
 import CallToAction from '../components/home/CallToAction';
 import LoadingSpinner from '../components/ui/LoadingSpinner';
 
 export default function HomePage() {
-  const { budaya, berita, events, kuliner, kategori, kecamatan, loading } = useData();
+  const { budaya, berita, events, kuliner, kategori, kecamatan, komoditas, loading } = useData();
 
   if (loading) {
     return <LoadingSpinner size="lg" text="Memuat Ensiklopedia Budaya Bengkulu Utara..." />;
@@ -24,6 +25,7 @@ export default function HomePage() {
       <ExploreBudaya kategoriData={kategori} />
       <PetaInteraktif kecamatanData={kecamatan} budayaData={budaya} />
       <BudayaPopuler budayaData={budaya} />
+      <KomoditasDaerah komoditasData={komoditas} />
       <FeaturedStory beritaData={berita} />
       <EventBudaya eventsData={events} />
       <KulinerKhas kulinerData={kuliner} />

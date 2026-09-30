@@ -9,6 +9,8 @@ import SemuaBerita from './pages/SemuaBerita'
 import DetailBerita from './pages/DetailBerita'
 import SemuaEvent from './pages/SemuaEvent'
 import DetailEvent from './pages/DetailEvent'
+import SemuaKomoditas from './pages/SemuaKomoditas'
+import DetailKomoditas from './pages/DetailKomoditas'
 import NotFound from './pages/NotFound'
 
 // Admin pages
@@ -43,6 +45,8 @@ export default function App() {
         <Route path="/berita/:slug" element={<Layout><DetailBerita /></Layout>} />
         <Route path="/event" element={<Layout><SemuaEvent /></Layout>} />
         <Route path="/event/:slug" element={<Layout><DetailEvent /></Layout>} />
+        <Route path="/komoditas" element={<Layout><SemuaKomoditas /></Layout>} />
+        <Route path="/komoditas/:slug" element={<Layout><DetailKomoditas /></Layout>} />
 
         {/* Admin Routes */}
         <Route path="/admin/login" element={<LoginPage />} />
