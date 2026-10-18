@@ -8,3 +8,7 @@ export { default as RichTextEditor } from './RichTextEditor';
 export { default as ImageUploader } from './ImageUploader';
 export { default as StatusBadge } from './StatusBadge';
 export { default as DeleteModal } from './DeleteModal';
+export { default as BudayaForm } from './BudayaForm';
+export { default as KomoditasForm } from './KomoditasForm';
+export { default as KecamatanForm } from './KecamatanForm';
+export { default as KulinerForm } from './KulinerForm';

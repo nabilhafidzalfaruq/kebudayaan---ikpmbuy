@@ -1,5 +1,14 @@
 export { default as LoginPage } from './LoginPage';
 export { default as DashboardPage } from './DashboardPage';
+export { default as MenuSettingsPage } from './MenuSettingsPage';
+export { default as BudayaListPage } from './BudayaListPage';
+export { default as BudayaEditorPage } from './BudayaEditorPage';
+export { default as KomoditasListPage } from './KomoditasListPage';
+export { default as KomoditasEditorPage } from './KomoditasEditorPage';
+export { default as KecamatanListPage } from './KecamatanListPage';
+export { default as KecamatanEditorPage } from './KecamatanEditorPage';
+export { default as KulinerListPage } from './KulinerListPage';
+export { default as KulinerEditorPage } from './KulinerEditorPage';
 export { default as BeritaListPage } from './BeritaListPage';
 export { default as BeritaEditorPage } from './BeritaEditorPage';
 export { default as EventListPage } from './EventListPage';

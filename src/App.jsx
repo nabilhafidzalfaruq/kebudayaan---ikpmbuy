@@ -16,6 +16,15 @@ import NotFound from './pages/NotFound'
 // Admin pages
 import LoginPage from './pages/admin/LoginPage'
 import DashboardPage from './pages/admin/DashboardPage'
+import MenuSettingsPage from './pages/admin/MenuSettingsPage'
+import BudayaListPage from './pages/admin/BudayaListPage'
+import BudayaEditorPage from './pages/admin/BudayaEditorPage'
+import KomoditasListPage from './pages/admin/KomoditasListPage'
+import KomoditasEditorPage from './pages/admin/KomoditasEditorPage'
+import KecamatanListPage from './pages/admin/KecamatanListPage'
+import KecamatanEditorPage from './pages/admin/KecamatanEditorPage'
+import KulinerListPage from './pages/admin/KulinerListPage'
+import KulinerEditorPage from './pages/admin/KulinerEditorPage'
 import BeritaListPage from './pages/admin/BeritaListPage'
 import BeritaEditorPage from './pages/admin/BeritaEditorPage'
 import EventListPage from './pages/admin/EventListPage'
@@ -54,6 +63,97 @@ export default function App() {
           <ProtectedRoute>
             <AdminLayout title="Dashboard">
               <DashboardPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/pengaturan-menu" element={
+          <ProtectedRoute>
+            <AdminLayout title="Pengaturan Menu">
+              <MenuSettingsPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/budaya" element={
+          <ProtectedRoute>
+            <AdminLayout title="Kelola Budaya">
+              <BudayaListPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/budaya/tambah" element={
+          <ProtectedRoute>
+            <AdminLayout title="Tambah Budaya">
+              <BudayaEditorPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/budaya/edit/:id" element={
+          <ProtectedRoute>
+            <AdminLayout title="Edit Budaya">
+              <BudayaEditorPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/komoditas" element={
+          <ProtectedRoute>
+            <AdminLayout title="Kelola Komoditas">
+              <KomoditasListPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/komoditas/tambah" element={
+          <ProtectedRoute>
+            <AdminLayout title="Tambah Komoditas">
+              <KomoditasEditorPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/komoditas/edit/:id" element={
+          <ProtectedRoute>
+            <AdminLayout title="Edit Komoditas">
+              <KomoditasEditorPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/kecamatan" element={
+          <ProtectedRoute>
+            <AdminLayout title="Kelola Kecamatan">
+              <KecamatanListPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/kecamatan/tambah" element={
+          <ProtectedRoute>
+            <AdminLayout title="Tambah Kecamatan">
+              <KecamatanEditorPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/kecamatan/edit/:id" element={
+          <ProtectedRoute>
+            <AdminLayout title="Edit Kecamatan">
+              <KecamatanEditorPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/kuliner" element={
+          <ProtectedRoute>
+            <AdminLayout title="Kelola Kuliner">
+              <KulinerListPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/kuliner/tambah" element={
+          <ProtectedRoute>
+            <AdminLayout title="Tambah Kuliner">
+              <KulinerEditorPage />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        <Route path="/admin/kuliner/edit/:id" element={
+          <ProtectedRoute>
+            <AdminLayout title="Edit Kuliner">
+              <KulinerEditorPage />
             </AdminLayout>
           </ProtectedRoute>
         } />

@@ -8,24 +8,15 @@ import { getAllKuliner } from '../firebase/services/kulinerService';
 import { getAllKecamatan } from '../firebase/services/kecamatanService';
 import { getAllKomoditas } from '../firebase/services/komoditasService';
 
-// Eagerly import all JSON data files from src/data/*.json if available
-const localJsonFiles = import.meta.glob('../data/*.json', { eager: true });
+import { getLocalItems } from '../utils/localDataManager';
 
 /**
- * Safely retrieve local JSON array for a given collection name
+ * Safely retrieve collection data for a given entity name
  * @param {string} name 
  * @returns {Array<Object>}
  */
 const getLocalCollection = (name) => {
-  const matchKey = Object.keys(localJsonFiles).find(
-    (key) => key.endsWith(`/${name}.json`) || key.endsWith(`\\${name}.json`)
-  );
-  if (matchKey && localJsonFiles[matchKey]) {
-    const mod = localJsonFiles[matchKey];
-    const data = mod.default || mod;
-    return Array.isArray(data) ? data : [];
-  }
-  return [];
+  return getLocalItems(name);
 };
 
 /**

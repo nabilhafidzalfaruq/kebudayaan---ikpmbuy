@@ -1,18 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, MessageCircle, Share2, Mail, Heart } from 'lucide-react';
+import { getNavSettings } from '../../utils/navSettings';
 
 export default function Footer() {
-  const navigasiLinks = [
-    { label: 'Beranda', href: '/' },
-    { label: 'Jelajah Budaya', href: '/jelajah' },
-    { label: 'Komoditas Daerah', href: '/komoditas' },
-    { label: 'Peta Kecamatan', href: '/#peta' },
-    { label: 'Berita Budaya', href: '/berita' },
-    { label: 'Agenda Event', href: '/event' },
-    { label: 'Kuliner Tradisional', href: '/#kuliner' },
-    { label: 'Tentang Kami', href: '/#tentang' },
+  const [navVis, setNavVis] = useState(() => getNavSettings());
+
+  useEffect(() => {
+    const handler = (e) => setNavVis(e.detail || getNavSettings());
+    window.addEventListener('bu-nav-settings-changed', handler);
+    return () => window.removeEventListener('bu-nav-settings-changed', handler);
+  }, []);
+
+  const allNavLinks = [
+    { id: 'beranda', label: 'Beranda', href: '/' },
+    { id: 'jelajah', label: 'Jelajah Budaya', href: '/jelajah' },
+    { id: 'komoditas', label: 'Komoditas Daerah', href: '/komoditas' },
+    { id: 'kecamatan', label: 'Peta Kecamatan', href: '/#peta' },
+    { id: 'berita', label: 'Berita Budaya', href: '/berita' },
+    { id: 'event', label: 'Agenda Event', href: '/event' },
+    { id: 'kuliner', label: 'Kuliner Tradisional', href: '/#kuliner' },
+    { id: 'tentang', label: 'Tentang Kami', href: '/#tentang' },
   ];
+
+  const navigasiLinks = useMemo(() => {
+    return allNavLinks.filter((item) => {
+      const setting = navVis[item.id];
+      return !setting || setting.visible !== false;
+    });
+  }, [navVis]);
 
   const kategoriLinks = [
     { label: 'Seni & Pertunjukan', href: '/jelajah?kategori=Seni%20%26%20Pertunjukan' },

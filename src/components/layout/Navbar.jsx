@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Sun, Moon, Menu, X } from 'lucide-react';
 import { useTheme } from '../../hooks/useTheme';
+import { getNavSettings } from '../../utils/navSettings';
 
 export default function Navbar({ onSearchOpen, onThemeToggle, isDark: propIsDark }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [navVisibility, setNavVisibility] = useState(() => getNavSettings());
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -28,6 +30,15 @@ export default function Navbar({ onSearchOpen, onThemeToggle, isDark: propIsDark
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Listen for nav settings changes from admin dashboard
+  useEffect(() => {
+    const handleSettingsChange = (e) => {
+      setNavVisibility(e.detail || getNavSettings());
+    };
+    window.addEventListener('bu-nav-settings-changed', handleSettingsChange);
+    return () => window.removeEventListener('bu-nav-settings-changed', handleSettingsChange);
+  }, []);
+
   // Close mobile drawer on route change
   useEffect(() => {
     setMobileMenuOpen(false);
@@ -45,16 +56,24 @@ export default function Navbar({ onSearchOpen, onThemeToggle, isDark: propIsDark
     };
   }, [mobileMenuOpen]);
 
-  const navItems = [
-    { label: 'Beranda', href: '/' },
-    { label: 'Jelajah Budaya', href: '/jelajah' },
-    { label: 'Komoditas', href: '/komoditas' },
-    { label: 'Kecamatan', href: '#peta' },
-    { label: 'Berita', href: '/berita' },
-    { label: 'Event', href: '/event' },
-    { label: 'Kuliner', href: '#kuliner' },
-    { label: 'Tentang', href: '#tentang' },
+  const allNavItems = [
+    { id: 'beranda', label: 'Beranda', href: '/' },
+    { id: 'jelajah', label: 'Jelajah Budaya', href: '/jelajah' },
+    { id: 'komoditas', label: 'Komoditas', href: '/komoditas' },
+    { id: 'kecamatan', label: 'Kecamatan', href: '#peta' },
+    { id: 'berita', label: 'Berita', href: '/berita' },
+    { id: 'event', label: 'Event', href: '/event' },
+    { id: 'kuliner', label: 'Kuliner', href: '#kuliner' },
+    { id: 'tentang', label: 'Tentang', href: '#tentang' },
   ];
+
+  // Filter nav items based on admin visibility settings
+  const navItems = useMemo(() => {
+    return allNavItems.filter((item) => {
+      const setting = navVisibility[item.id];
+      return !setting || setting.visible !== false;
+    });
+  }, [navVisibility]);
 
   const handleNavClick = (href, e) => {
     if (href.startsWith('#')) {

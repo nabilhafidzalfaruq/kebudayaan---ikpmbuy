@@ -2,6 +2,11 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import {
   LayoutDashboard,
+  Compass,
+  Landmark,
+  TreePalm,
+  MapPin,
+  Utensils,
   Newspaper,
   CalendarDays,
   ArrowLeft,
@@ -16,12 +21,45 @@ import {
  * @param {() => void} [props.onClose] - Mobile drawer close handler
  */
 export default function AdminSidebar({ isOpen = false, onClose }) {
-  const navItems = [
+  const mainNavItems = [
     {
       to: '/admin',
       end: true,
       label: 'Dashboard',
       icon: LayoutDashboard
+    },
+    {
+      to: '/admin/pengaturan-menu',
+      end: false,
+      label: 'Pengaturan Menu',
+      icon: Compass
+    }
+  ];
+
+  const contentNavItems = [
+    {
+      to: '/admin/budaya',
+      end: false,
+      label: 'Budaya',
+      icon: Landmark
+    },
+    {
+      to: '/admin/komoditas',
+      end: false,
+      label: 'Komoditas',
+      icon: TreePalm
+    },
+    {
+      to: '/admin/kecamatan',
+      end: false,
+      label: 'Kecamatan (Pemekaran)',
+      icon: MapPin
+    },
+    {
+      to: '/admin/kuliner',
+      end: false,
+      label: 'Kuliner Khas',
+      icon: Utensils
     },
     {
       to: '/admin/berita',
@@ -96,7 +134,37 @@ export default function AdminSidebar({ isOpen = false, onClose }) {
             Menu Utama
           </div>
 
-          {navItems.map((item) => {
+          {mainNavItems.map((item) => {
+            const Icon = item.icon;
+            return (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                end={item.end}
+                onClick={handleNavClick}
+                className={({ isActive }) =>
+                  `flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-medium transition-all ${
+                    isActive
+                      ? 'bg-primary-700 text-white shadow-sm font-semibold'
+                      : 'text-cream-300 hover:text-white hover:bg-dark-700/70'
+                  }`
+                }
+              >
+                <Icon className="w-5 h-5 shrink-0" />
+                <span>{item.label}</span>
+              </NavLink>
+            );
+          })}
+
+          <div className="py-3">
+            <div className="h-px bg-dark-700 mx-2" />
+          </div>
+
+          <div className="px-3 pb-2 text-[11px] font-semibold tracking-wider text-dark-400 uppercase">
+            Konten Daerah
+          </div>
+
+          {contentNavItems.map((item) => {
             const Icon = item.icon;
             return (
               <NavLink
